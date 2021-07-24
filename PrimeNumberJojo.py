@@ -3,7 +3,6 @@
 end = 10000
 
 for i in range(1, end + 1):
-    # print('FizzBuzz'[(4 if i % 3 else 0):(4 if i % 5 else 8)] or i)
     print(i)
 
     # 値が素数なら、プッチ神父風につぶやかせる
