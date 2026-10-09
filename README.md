@@ -1,2 +1,0 @@
-# Python
-my Python code
