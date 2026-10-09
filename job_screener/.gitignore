@@ -1,0 +1,15 @@
+# 保存した生HTMLは絶対にコミットしない（自分のPII・セッションtokenを含むため）
+data/raw_html/*
+!data/raw_html/.gitkeep
+
+# 生成物
+data/output/*
+!data/output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
